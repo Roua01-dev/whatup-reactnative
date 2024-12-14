@@ -117,8 +117,7 @@ const ChatGroup = ({ userId }) => {
         console.error(
           "[ChatGroup] Erreur lors de la récupération des informations utilisateur :",
           error
-        );
-      }
+        ); }
     };
 
     const keyboardDidShow = Keyboard.addListener("keyboardDidShow", () =>
